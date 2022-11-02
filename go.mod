@@ -3,7 +3,7 @@ module github.com/amanitaverna/ebitenSubimageTest
 go 1.19
 
 require (
-	github.com/amanitaverna/frostutil v1.1.1
+	github.com/amanitaverna/frostutil v1.1.2
 	github.com/hajimehoshi/ebiten/v2 v2.4.10
 	github.com/stretchr/testify v1.8.1
 )
