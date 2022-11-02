@@ -10,6 +10,6 @@ This package contains a test which:
 It uses At to check the pixel color and Set to set it at every step, except for when it is creating the initial image (at that one time, it directly modifies its Pix buffer instead).
 
 Some observations:
-- This test fails on Ebitengine 2.4.0 - 2.4.9 but passes on 2.3.*. Specifically, the checks of the subimages' pixels show them to be black when they should be fully transparent. 
+- This test fails on Ebitengine 2.4.0 - 2.4.10 but passes on 2.3.*. Specifically, the checks of the subimages' pixels show them to be black when they should be fully transparent. 
 - If the At and Set code are replaced with code that uses ReadPixels and WritePixels, the test passes.
 - Without the subimage calls, At and Set appear to work fine.
