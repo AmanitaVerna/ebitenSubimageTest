@@ -1,7 +1,7 @@
 This package contains a test which:
 1. Creates a new RGBA image
 2. Paints it black
-3. Creates an *ebiten.Image from it, using ebite.NewImageFromImage
+3. Creates an *ebiten.Image from it, using ebiten.NewImageFromImage
 4. Verifies that the *ebiten.Image is all black (#000000ff)
 5. Paints it transparent (#00000000)
 6. Verifies that it is all transparent
